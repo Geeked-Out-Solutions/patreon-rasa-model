@@ -1,0 +1,16 @@
+
+welcome: # this is the #welcome bloc referenced in index.js
+  - typing: true
+    text: # Picks one randomly
+      - Hey there!
+      - Good day :)
+  - text: How can I help you?
+    typing: 2s
+
+goodbye:
+  - text: Have a good day
+    typing: 2s
+
+help:
+  - text: Sure I can help you, what would you like help with?
+    typing: 3s
